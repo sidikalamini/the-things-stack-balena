@@ -103,7 +103,7 @@ services:
       TC_KEY:
       #EUI_ADDRESS:         # required if you use a Pi Zero W or Pi Zero 2 W
    
-  labels:
+    labels:
       io.balena.features.kernel-modules: '1'
       io.balena.features.firmware: '1'
       io.balena.features.dbus: '1'
